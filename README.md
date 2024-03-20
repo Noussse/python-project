@@ -1,2 +1,2 @@
 # python project
- tryin to automate my files in download folder
+ trying to automate my files in download folder

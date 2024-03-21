@@ -1,7 +1,7 @@
 import os
 import shutil
 
-path = input("What folder do you want to organize: ")
+path =os.path.join(os.path.expanduser('~'), 'Downloads')
 
 for file in os.listdir(path):
     if os.path.isfile(os.path.join(path, file)):
